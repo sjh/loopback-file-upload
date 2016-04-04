@@ -3,6 +3,7 @@ var path = require('path');
 
 module.exports = function(user) {
   //send verification email after registration
+  /*
   user.afterRemote('create', function(context, user, next) {
     console.log('> user.afterRemote triggered');
 
@@ -47,4 +48,5 @@ module.exports = function(user) {
       console.log('> sending password reset email to:', info.email);
     });
   });
+  */
 };
