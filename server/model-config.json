@@ -31,10 +31,12 @@
     "dataSource": "emailDs"
   },
   "user": {
-    "dataSource": "db",
+    "dataSource": "mysqlDs",
     "public": true,
-    "options": {
-      "emailVerificationRequired": true
-    }
+    "options": {}
+  },
+  "file": {
+    "dataSource": "mysqlDs",
+    "public": true
   }
 }
