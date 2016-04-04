@@ -3,6 +3,16 @@
     "name": "db",
     "connector": "memory"
   },
+  "mysqlDs": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "file_uploader4",
+    "password": "root",
+    "name": "mysqlDs",
+    "socketPath": "/opt/local/var/run/mysql56/mysqld.sock",
+    "user": "root",
+    "connector": "mysql"
+  },
   "emailDs": {
     "name": "emailDs",
     "connector": "mail",
@@ -16,8 +26,8 @@
           "rejectUnauthorized": false
         },
         "auth": {
-          "user": "email@address.com",
-          "pass": "password"
+          "user": "admin@sample.org",
+          "pass": "admin"
         }
       }
     ]
