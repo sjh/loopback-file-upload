@@ -13,6 +13,12 @@
     "user": "root",
     "connector": "mysql"
   },
+  "localFile": {
+    "name": "localFile",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./storage"
+  },
   "emailDs": {
     "name": "emailDs",
     "connector": "mail",

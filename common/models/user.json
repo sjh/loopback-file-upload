@@ -5,13 +5,6 @@
   "properties": {},
   "validations": [],
   "relations": {},
-  "acls": [
-    {
-      "principalType": "ROLE",
-      "principalId": "$everyone",
-      "accessType": "READ",
-      "permission": "ALLOW"
-    }
-  ],
-  "methods": []
+  "acls": [],
+  "methods": {}
 }

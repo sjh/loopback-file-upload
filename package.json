@@ -15,7 +15,6 @@
     "loopback": "^2.8.0",
     "loopback-boot": "^2.4.0",
     "loopback-component-explorer": "^2.1.0",
-
     "loopback-connector-mysql": "^2.2.1",
     "loopback-datasource-juggler": "^2.7.0",
     "serve-favicon": "^2.0.1",
@@ -23,11 +22,9 @@
     "loopback-connector": "^2.3.0",
     "debug": "^2.2.0",
     "mysql": "^2.10.2",
-
     "loopback-component-storage": "^1.7.0",
     "formidable": "^1.0.17",
     "pkgcloud": "^1.3.0"
-
   },
   "devDependencies": {
     "jshint": "^2.5.6",
