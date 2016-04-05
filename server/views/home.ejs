@@ -1,5 +1,34 @@
 <main>
   <h1>Hi <%= email %>.</h1>
   <p>Your accessToken is: <%= accessToken %></p>
+
+  Create Folder:
+  <form action="/api/Files?access_token=<%= accessToken %>" method="post">
+    <fieldset>
+      <legend>Upload file</legend>
+      <div>
+        <input type="text" name="name" value=""/>
+      </div>
+      <div>
+        <input type="submit" value="Upload"/>
+      </div>
+    </fieldset>
+  </form>
+
+
+  Upload file:
+  <form action="/api/Files/folder01/upload?access_token=<%= accessToken %>" method="post" enctype="multipart/form-data">
+    <fieldset>
+      <legend>Upload file</legend>
+      <div>
+        <input type="file" multiple name="file" value=""/>
+      </div>
+      <div>
+        <input type="submit" value="Upload"/>
+      </div>
+    </fieldset>
+  </form>
+
+
   <a href="/logout?access_token=<%= accessToken %>">Log out</a>
 </main>
