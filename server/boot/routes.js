@@ -12,10 +12,12 @@ module.exports = function(app) {
     });
   });
 
+  /*
   //verified
   app.get('/verified', function(req, res) {
     res.render('verified');
   });
+  */
 
   //log a user in
   app.post('/login', function(req, res) {
